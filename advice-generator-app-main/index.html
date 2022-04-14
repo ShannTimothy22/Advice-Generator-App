@@ -12,29 +12,46 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Advice generator app</title>
   </head>
   <body>
-    Advice #<!-- Advice ID goes here -->
-
-    "<!-- Advice text goes here -->"
-
-    <div class="attribution">
+    <section class="advice-container">
+      <!-- Advice # Advice ID goes here -->
+      <div class="advice-counter">
+        <p class="advice-title">Advice #<span id="counter">117</span></p>
+      </div>
+      <!-- Advice text goes here -->
+      <div class="advice-text">
+        <p id="advice">
+          "It is easy to sit up and take notice, what's difficult is getting up
+          and take action"
+        </p>
+      </div>
+      <div class="advice-divider">
+        <img
+          class="pattern-divider"
+          src="images/pattern-divider-desktop.svg"
+          alt=""
+        />
+      </div>
+      <div class="advice-dice">
+        <img class="icon-dice" src="images/icon-dice.svg" alt="" />
+      </div>
+    </section>
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Nae Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;900&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container {
+  background-color: #313a49;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: 15px;
+  min-height: 332px;
+  max-width: 540px;
+}
+
+.advice-counter {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  padding: 1rem;
+}
+
+.advice-title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+
+#advice {
+  text-align: center;
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+}
+
+.advice-divider {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.pattern-divider {
+  color: hsl(193, 38%, 86%);
+}
+
+.advice-dice {
+  height: 65px;
+  width: 65px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+}
+
+.icon-dice {
+  width: 100%;
+  height: auto;
+}
