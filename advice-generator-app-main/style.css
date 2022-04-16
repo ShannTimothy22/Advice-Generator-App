@@ -43,6 +43,7 @@ body {
   padding: 2rem;
   border-radius: 15px;
   min-height: 332px;
+  max-width: 540px;
   max-width: 440px;
   min-width: 340px;
 }
@@ -63,11 +64,30 @@ body {
 
 #advice {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   color: hsl(193, 38%, 86%);
   font-weight: 800;
   margin-bottom: 2.4rem;
 }
+
+/* @media (max-width: 375px) {
+  #advice {
+    text-align: center;
+    font-size: 12px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .advice-divider {
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+} */
 
 .advice-divider {
   height: auto;
@@ -77,10 +97,19 @@ body {
 }
 
 .pattern-divider {
-  max-width: 350px;
+  width: 300px;
   height: auto;
   object-fit: contain;
   color: hsl(193, 38%, 86%);
+}
+
+@media (max-width: 375px) {
+  .pattern-divider {
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    color: hsl(193, 38%, 86%);
+  }
 }
 
 .advice-dice {
